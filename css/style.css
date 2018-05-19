@@ -69,7 +69,7 @@ body {
 .navbar-default .navbar-link:hover {
   color: #ffffff;
 }
-
+/*  Custom */
 .main-color-bg {
   background-color: #3e27c5 !important;
   border-color: #2a3796 !important;
@@ -78,8 +78,27 @@ body {
 
 /* Header */
 
+header {
+  background: #333;
+  color: #fff;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
 
+#header .create {
+  padding-top: 20px;
+}
 
+/* Bredacrumb */
+
+.breadcrumb {
+  background: #ccc;
+  color: #333;
+}
+
+.breadcrumb a {
+  color: #333;
+}
 
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
